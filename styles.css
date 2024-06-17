@@ -18,17 +18,69 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
+#container {
+    width: 626px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 6.4rem auto;
+    align-items: center;
+}
+
+#container main {
+    flex: 1;
+}
+    
 h1 {
     font-size: 3.2rem;
     font-weight: 500;
     color: var(--dark-blue);
 }
 
-#container{
-    text-align: center;
+img {
+    width: 35rem;
+    height: 24rem;
 }
 
 strong {
     color: var(--shock-pink);
     font-weight: 700;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--gray-300);
+    line-height: 2.2rem;
+}
+
+span {
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    overflow-y: hidden;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 4.2rem;
+}
+
+ul li a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+    text-decoration: none;
+}
+
+.wave img {
+    position: relative;
+    width: 100%;
+    bottom: -4rem;
 }
